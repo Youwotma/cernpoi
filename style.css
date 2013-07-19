@@ -1,0 +1,182 @@
+/* line 17, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 5, style.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0 !important;
+}
+
+/* line 7, style.scss */
+#map1 {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 13, style.scss */
+.hidden {
+  display: none !important;
+  height: 0px !important;
+}
+
+/* line 18, style.scss */
+#add-poi-helptext {
+  display: none;
+}
+
+/* line 22, style.scss */
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* line 27, style.scss */
+.btn-close {
+  float: right;
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  /* line 33, style.scss */
+  h1 {
+    font-size: 22px !important;
+  }
+}
+/* line 38, style.scss */
+#chrome {
+  position: absolute;
+  z-index: 1000;
+  right: 0px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.7);
+  -moz-box-shadow: -2px 2px 10px 0px #333333;
+  -webkit-box-shadow: -2px 2px 10px 0px #333333;
+  -o-box-shadow: -2px 2px 10px 0px #333333;
+  box-shadow: -2px 2px 10px 0px #333333;
+  -moz-border-radius-bottomleft: 7px;
+  -webkit-border-bottom-left-radius: 7px;
+  -o-border-bottom-left-radius: 7px;
+  -ms-border-bottom-left-radius: 7px;
+  -khtml-border-bottom-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+/* line 47, style.scss */
+#chrome .actionbtn {
+  padding: 10px 20px;
+}
+
+/* line 63, style.scss */
+.review {
+  clear: both;
+  margin: 10px 0;
+  border-top: 1px dashed #ccc;
+  padding: 10px 0;
+}
+/* line 64, style.scss */
+.review img {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+/* line 75, style.scss */
+#review-text {
+  width: 97%;
+}
+
+/* line 79, style.scss */
+#btn-add-review {
+  float: right;
+  margin-bottom: 15px;
+}
+
+#poilist-target{
+  height: 300px;
+  overflow-y: auto;
+}
+
+#poi-img {
+    max-width: 200px;
+    max-height: 200px;
+    float: left;
+    margin-right: 15px;
+}
+
+.poi-list-item{
+    border-bottom: 1px dashed #ccc;
+    overflow: hidden;
+    cursor: pointer;
+}
+.poi-list-item img{
+    max-width: 40px;
+    max-height: 40px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}

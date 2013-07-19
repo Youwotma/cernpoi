@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CERN Points of interest</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link rel='stylesheet' type='text/css' href='style.css' />
+		<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css" />
+        <![endif]-->
+	</head>
+	<body class="">
+        <div id="chrome">
+            <h1 id="title">CERN Tourism</h1>
+			<div id="phone-controls" class="visible-phone">
+				<button class="btn actionbtn add-button" id="add-button"><i class="icon-map-marker"></i></button>
+			</div>
+			<div id="poilist">
+				<legend>Points of interest</legend>
+				<div id="poilist-target">Loading...</div>
+			</div>
+            <form id="tools" class="hidden-phone">
+                <legend>Tools</legend>
+                <button class="btn add-button btn-primary">
+                    <i class="icon-map-marker"></i>
+                    Add Point of Interest
+                </button>
+                <a class="btn"
+					href="mailto:cerntourism@bengoarocandio.com">
+                    <i class="icon-envelope"></i>
+                    E-mail the author
+                </a>
+            </form>
+            <div id="add-poi-helptext">
+                <legend>Add point of interest <button id="poi-cancel" class="btn btn-danger btn-mini btn-close">Cancel</button></legend>
+                Tap in the map in the location of the new Point of Interest
+            </div>
+        </div>
+
+		<div id="map1"> </div>
+
+        <div id="dialog-new-poi" class="modal hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3>New Point of Interest</h3>
+            </div>
+            <form class="modal-body form-horizontal">
+                <div class="control-group">
+                    <label class="control-label" for="input-poi-name">Name</label>
+                    <div class="controls">
+                        <input type="text" id="input-poi-name" placeholder="">
+						<span class="help-block">The name of the thing</span>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="input-poi-req">Requirements</label>
+                    <div class="controls">
+                        <input type="text" id="input-poi-req" placeholder="">
+						<span class="help-block">What do you need to access where it's located? CERN card? Radiation meter? Special permission?</span>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="input-poi-img">Image</label>
+                    <div class="controls">
+                        <input type="text" id="input-poi-img" placeholder="">
+						<span class="help-block">Put a URL. Use <a href="http://imgur.com/">imgur.com</a> for uploading.</span>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="input-poi-description">Description</label>
+                    <div class="controls">
+                        <textarea rows="6" id="input-poi-description"></textarea>
+						<span class="help-block">Describe what is it, how to get
+							there, where do you request permission, if it's
+							underground, etc...</span>
+                    </div>
+                </div>
+            </form>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                <button class="btn btn-primary" id="poi-save">Save Point of Interest</button>
+            </div>
+        </div>
+
+        <div id="dialog-poi" class="modal hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="poi-name"></h3>
+            </div>
+            <div class="modal-body">
+				<div class="alert alert-block">
+					<strong>Caution:</strong> This information might be inaccurate, always obey CERN regulations <a href="rules.html" target="_blank">(more information)</a>.
+				</div>
+				<a href="" id="poi-img-a" target="_blank">
+					<img id="poi-img" class="img-polaroid"/>
+				</a>
+				<h4>Description</h4>
+                <p id="poi-description"></p>
+				<h4>Requirements</h4>
+                <p id="poi-req"></p>
+                <h4>Comments</h4>
+				<div class="clearfix"></div>
+				<div id="no-comments">No comments yet! </div>
+                <div id="poi-reviews"></div>
+                <div id="add-review">
+					<div class="clearfix"></div>
+                    <h4 class="clearfix">Add Comment</h4>
+					<div class="clearfix"></div>
+					<p>Know something cool about
+					this place? Is the information wrong? leave a comment!</p>
+                    <form id="form-review">
+                        <textarea id="review-text"></textarea>
+                        <div>
+                            <button class="button btn btn-primary"
+								id="btn-add-review">Add comment</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            </div>
+        </div>
+
+		<div id="dialog-pois" class="modal hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="pois-title"></h3>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            </div>
+        </div>
+
+        <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" type="text/javascript"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+		<script type='text/javascript' src='ajax.js'></script>
+		<script type='text/javascript' src='main.js'></script>
+		<script type='text/javascript' src='ui.js'></script>
+	</body>
+</html>
+
