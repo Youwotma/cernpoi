@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <meta charset="utf-8">
+    <title>Summer Parties at CERN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="index_files/bootstrap.css" rel="stylesheet">
+
+    <style>
+    /* CUSTOMIZE THE jumbotron
+    -------------------------------------------------- */
+
+    /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 80px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 60px;
+      }
+      .jumbotron .lead {
+        width: 800px;
+        font-size: 24px;
+      }
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 60px;
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height: 500px;
+    }
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+    }
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 200px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+
+
+
+    /* MARKETING CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+    .marketing .span4 {
+      text-align: center;
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+    .marketing .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+        margin: -20px 0;
+      }
+
+      .carousel .item {
+        height: 500px;
+      }
+      .carousel img {
+        width: auto;
+        height: 500px;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+
+      .navbar-inner {
+        margin: -20px;
+      }
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 300px;
+      }
+      .carousel img {
+        height: 300px;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+    }
+    </style>
+
+
+
+    
+
+    <link href="index_files/bootstrap-responsive.html" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="http://www.student.dtu.dk/%7Es082951/cern/assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www.student.dtu.dk/%7Es082951/cern/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.student.dtu.dk/%7Es082951/cern/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="http://www.student.dtu.dk/%7Es082951/cern/assets/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+
+  <body>
+    <script src="index_files/jquery-latest.js"></script>
+    <script src="index_files/bootstrap.html"></script>
+
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Planning a student party at CERN</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container marketing">
+
+      <div class="featurette-divider"></div>
+
+      <div class="featurette">
+        <h2 class="featurette-heading">Planning a Student Party at CERN</h2>
+        <p class="lead">This webpage will try to explain what you have to think about when hosting a large party for the students at CERN.</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-left" src="index_files/costume.jpg">
+        <h2 class="featurette-heading">Finding a Theme and a Date</h2>
+        <p class="lead">The best parties are the parties with a good 
+theme. Since people at CERN are interested in physics, a physics-related
+ theme is never a bad idea. Be careful with picking a theme which 
+requires too much of the participants. If you plan a party in the 
+weekend (Friday and Saturday), it is likely that many people will be 
+away from CERN, so consider planning something on a Thursday.</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-right" src="index_files/soundequipment.jpg" width="500">
+        <h2 class="featurette-heading">The Summer Student Fund</h2>
+        <p class="lead">Over the years, summer students have accumulated
+ the profit from parties into a summer student fund. The money in this 
+fund goes towards buying new equipment for the Pump Room and other 
+student related purposes (for example summer student t-shirts). 
+Currently, <a href="mailto:utdiscant@gmail.com">David Kofoed Wind</a> is
+ responsible for the student fund. Remember, that all the money in the 
+summer student fund comes from students, so if we waste it, it is gone!</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-left" src="index_files/house.png">
+        <h2 class="featurette-heading">Booking a Room</h2>
+        <p class="lead">For large parties at CERN, the Pump Room/Salle polyvale (216-R-401) is the only place to be. The Pump Room can be booked at <a href="http://www.student.dtu.dk/%7Es082951/cern/indico.cern.ch/roomBooking.py">this website</a>.
+ The Pump Room can hold 200 participants which should be fine for most 
+parties. When booking the room for a party, it can be a good idea to 
+book it until midnight and again from midnight to noon the next day to 
+give more time for cleaning. There is a 200 CHF deposit for booking the 
+Pump Room. Another place to have a smaller party is the barbecue area at
+ Building 9405.</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-right" src="index_files/signature.png">
+        <h2 class="featurette-heading">Signing the Forms</h2>
+        <p class="lead">When you book a room for a large party, a series
+ of people have to sign a form indicating who is responsible for the 
+party. The people who need to sign the form is the organizer (you), your
+ supervisor, somebody in the main administration and the people handling
+ the room bookings. You will get told who should sign the papers, and 
+there should be no problems with getting signatures.</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-left" src="index_files/bar.jpg">
+        <h2 class="featurette-heading">The Bar</h2>
+        <p class="lead">At self-organized parties, no alcohol above 15% 
+can be served, and all distribution of alcohol must be supervised by 
+someone. There should always be non-alcoholic drinks available in the 
+bar. A good place to buy supplies for the bar is <a href="http://www.student.dtu.dk/%7Es082951/cern/bit.ly/1aEMNVe">Intermarche</a>,
+ so borrow a car from a good friend. At the last party I helped organize
+ (with around 200 participants), around 830 beers and 20 litres of 
+alcohol was consumed. We took 2CHF per beer, 3CHF for an alcoholic drink
+ and 1CHF for a non-alcoholic drink. A good argument for charging more 
+for drinks is that less people get really drunk, which means there is 
+less people getting into trouble which you are responsible for!</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-right" src="index_files/facebook.png">
+        <h2 class="featurette-heading">Branding and PR</h2>
+        <p class="lead">If you want to host a party for all the students, the Facebook groups are good place to start. There is a <a href="https://www.facebook.com/groups/290120801106585/">Facebook group for the summer students</a> and a <a href="https://www.facebook.com/groups/young.at.cern/">Facebook group for young people at CERN</a>. It is also possible to borrow the microphone between the lectures and tell about your party.</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-left" src="index_files/guard.png">
+        <h2 class="featurette-heading">Entrance Fee</h2>
+        <p class="lead">It is possible to take a small entrance fee of a
+ couple of francs. Charging an entrance fee make the party more formal, 
+and helps ensure that you don't loose money on the party.</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-right" src="index_files/cleaning.png">
+        <h2 class="featurette-heading">Cleaning</h2>
+        <p class="lead">When booking the Pump Room, there is a cleaning 
+fee of 70CHF which goes toward a professional cleaning team washing the 
+floor on the day after the party. It is still your own responsibility to
+ clean the room, the outside and remove puke and other things left 
+behind. It can be a good idea to take the worst part of the cleaning 
+immediatly after the party, and only leave a small bit for the next 
+morning.</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-left" src="index_files/music.png">
+        <h2 class="featurette-heading">Music</h2>
+        <p class="lead">Of course music is an important part of any good
+ party. Consider finding a DJ, for example one you know or make a post 
+on the Facebook groups. Unless you have a very specific theme, you will 
+most likely want a DJ who plays general top 40 hits. Consider paying the
+ DJ a small amount of the profits, or at least make sure he/she has 
+everything needed (red bulls, a fan or other things). If music-equipment
+ is missing, talk to the people responsible for the student fund to 
+purchase new equipment.</p>
+      </div>
+
+      <hr class="featurette-divider">
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>Written by <a href="mailto:utdiscant@gmail.com">David Kofoed Wind</a>. Only the author is responsible for the information on this webpage, not CERN.</p>
+      </footer>
+
+    </div>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="index_files/jquery.html"></script>
+    <script src="index_files/bootstrap.js"></script>
+    <script src="index_files/bootstrap-min.html"></script>
+
+    <script type="text/javascript">
+        $("[rel=tooltip]").tooltip();
+    </script>
+
+  
+
+</body></html>
