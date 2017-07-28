@@ -54,7 +54,7 @@ function uncenterPOI(poi){
 }
 
 function updatePoints() {
-	ajax("GET", "pois.php", {}, function(response){
+	ajax("GET", "pois.json", {}, function(response){
 		var $t = $("#poilist-target").empty();
 		$.each(response.features, function(i,o){
 			if(o.geometry.coordinates[1]){

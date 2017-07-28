@@ -1,17 +1,16 @@
 
 function openPanel(selector){
-	$(selector).removeClass("hidden-phone");
-    $("#phone-controls").addClass("hidden");
-    $("#title").addClass("hidden-phone");
-    return false;
+  $(selector).removeClass("hidden-phone");
+  $("#phone-controls").addClass("hidden");
+  $("#title").addClass("hidden-phone");
+  return false;
 }
 
 $(".add-button").click(function(){
-    openPanel("");
-	$("#add-poi-helptext").show();
-    $("#tools").addClass("hidden");
-    map.on("click", newPoi);
-    return false;
+  openPanel("");
+  $("#add-poi-helptext").show();
+  $("#tools").addClass("hidden");
+  return false;
 });
 
 var newPOIMarker = null;
@@ -73,7 +72,6 @@ $("#poi-save").click(function(){
         }
     });
 
-	console.log(clean);
     if(form_clean){
         ajax("POST", "poi_add.php", clean, function(){
             $("#dialog-new-poi").modal("hide");
@@ -101,10 +99,12 @@ $("#btn-add-review").click(function(){
 function addReviews(reviews){
     var $reviews = $("#poi-reviews");
     $.each(reviews, function(i, review){
-		$("#no-comments").hide();
-        $("<div/>").addClass("review").text(review.text).prepend(
-            $('<img class="media-object" src="' + review.img + '/"/>')
-        )        .appendTo($reviews);
+      var hash = ('68b329da9893e34099c7d8ad5cb9c940' + (new Number(review['user_id'])).toString(16)).substr(-32, 32);
+      var imgurl = "//www.gravatar.com/avatar/" + hash + "?d=retro&f=y";
+      $("#no-comments").hide();
+      $("<div/>").addClass("review").text(review.text).prepend(
+        $('<img class="media-object" src="' + imgurl + '/"/>')
+      ).appendTo($reviews);
     });
 }
 
@@ -118,7 +118,7 @@ function openPOI(poi){
 
 	$("#poi-reviews").empty();
 	$("#no-comments").show();
-    ajax("GET", "reviews.php", {poi: poi.id}, addReviews);
+    addReviews(poi.comments)
 
     $.each(["name","req","description"], function(i, field){
         $("#poi-" + field).text(poi[field]);

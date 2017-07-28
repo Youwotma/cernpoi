@@ -1,14 +1,12 @@
 
 
-var API = "http://cerntourism.dvdbng.com/"
-
 function ajax(verb, object, data, callback){
     var getData = verb=="GET"?data:{};
     var postData = verb=="GET"?null:data;
 
     $.ajax({
         type: verb,
-        url: API + object + "?" + $.param(getData),
+        url: object + "?" + $.param(getData),
         data: postData,
         dataType: "json",
         success: function(response){

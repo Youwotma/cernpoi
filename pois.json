@@ -1,0 +1,635 @@
+{
+    "response": {
+        "features": [
+            {
+                "geometry": { "coordinates": [ 6.0557627677917, 46.234136461748 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "Is the exhibition installed in the Globe of Science and Innovation. Dedicated to CERN main missions it allows to explore the world of particles by immersing the visitor in a unique and spectacular ambiance.\n\nGo to \"The Globe\" next to the tram stop, and enter from the back of the building.\n\nMore information: http://outreach.web.cern.ch/outreach/expos_cern/Flyer_GuideE.pdf\n",
+                    "id": "3",
+                    "img": "http://i.imgur.com/Z53Xvp2.jpg",
+                    "lat": "46.23413646174786",
+                    "lon": "6.055762767791748",
+                    "name": "Universe of Particles",
+                    "req": "Nothing! (Open to the public)",
+                    "comments": [
+                      {"text": "The Glove ==> The Globe :D", "user_id":  239456084 },
+                      {"text": "Thanks, I have corrected the typo.", "user_id": 0 }
+                    ]
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0537296533585, 46.232017646632 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "Plaque situated in the offices where some of the people that contributed to the early web worked. The plaque reads:\n\n\"Where The Web was born. In the offices of this corridor, all the fundamental technologies of the World Wide Web were developed. Started in 1990 from a proposal made by Tim Berners-Lee in 1989, the effort was first divided between an office in building 31 of the Computing and Networking Division (CN) and one in building 2 of the Electronics and Computing for Physics Division (ECP). In 1991 the team came together in these offices, then belonging to ECP. It was composed of two CERN staff members, Tim Berners-Lee (GB) and Robert Cailliau (BE), aided by a number of Fellows, Technical Students, a Coop\u00e9rant and Summer Students. At the end of 1994 Tim Berners-Lee left CERN to direct the WWW consortium (W3C), a world-wide organization devoted to leading the Web to its full potential. The W3C was founded with the help of CERN, the European Commission, the Massachusetts Institute of Technology (MIT), the Institut National pour la Recherche en Informatique et en Automatique (INRIA), and the Advanced Research Projects Agency (ARPA). In 1995 Tim Berners-Lee and Robert Cailliau received the ACM Software System Award for the World Wide Web. In 2004, Tim Berners-Lee was awarded the first Millenium Technology Prize by the Finnish Technology Award Foundation. The CERN Library June 2004\"\n\nEven if this plaque is in this offices, Tim Berners Lee didn't work here, he worked in the CERN Computing Centre (Building 513).",
+                    "id": "9",
+                    "img": "http://i.imgur.com/yRQQjbJ.jpg",
+                    "lat": "46.232017646632194",
+                    "lon": "6.0537296533584595",
+                    "name": "Where The Web was born",
+                    "req": "CERN Card",
+                    "comments": [
+                      {"text": "Actually Tim Berners-Lee worked in building 31, not in 513. Here is an interview where he explains where was his office: http://davidgalbraith.org/uncategorized/the-exact-location-where-the-web-was-invented/\n To sum up, he wrote the memo in office 31/2-010 and developed the WWW code in office 31/2-0", "user_id":   37801688 }
+                    ]
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0557627677917, 46.232652186535 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "From the infinitely large to the infinitesimally small, Microcosm will give you the key to understanding the secrets of matter. In this exhibition you will explore the mysteries of the universe and discover the massive apparatus used by physicists, the accelerators and detectors, and see how each part works! \n\nIt's next to the reception (building 33)",
+                    "id": "5",
+                    "img": "http://i.imgur.com/SVGeLSH.jpg",
+                    "lat": "46.23265218653462",
+                    "lon": "6.055762767791748",
+                    "name": "Microcosm",
+                    "req": "Nothing (open to the public)",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0553765296936, 46.232522310544 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "The Big European Bubble Chamber (BEBC) was a piece of equipment used to study particle physics at CERN. BEBC was installed at CERN in the early 1970s. It was a stainless-steel vessel filled with 35 cubic metres of liquid hydrogen. Charged particles left trails of bubbles as they passed through it. It has since been decommissioned and is now on display at CERN's Microcosm museum.",
+                    "id": "6",
+                    "img": "http://i.imgur.com/aUSwtsG.jpg",
+                    "lat": "46.23252231054353",
+                    "lon": "6.0553765296936035",
+                    "name": "Big European Bubble Chamber",
+                    "req": "CERN Card (To enter the campus)",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.055451631546, 46.232618789881 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "A microwave cavity or radio frequency (RF) cavity is a special type of resonator, consisting of a closed (or largely closed) metal structure that confines electromagnetic fields in the microwave region of the spectrum. The structure is either hollow or filled with dielectric material.",
+                    "id": "7",
+                    "img": "http://i.imgur.com/IpEilLl.jpg",
+                    "lat": "46.23261878988055",
+                    "lon": "6.0554516315460205",
+                    "name": "RF cavity from the Large Electron-Positron Collider",
+                    "req": "CERN Card (To enter the campus)",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0554945468903, 46.232767219299 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "Initial stages of an old particle accelerator.",
+                    "id": "8",
+                    "img": "http://i.imgur.com/mLq1ymg.jpg",
+                    "lat": "46.23276721929864",
+                    "lon": "6.055494546890259",
+                    "name": "Initial stages of an old particle accelerator.",
+                    "req": "CERN Card (To enter the campus)",
+                    "comments": [
+                      {"text": "It's a Cockcroft-Walton generator. Before we had those pesky RFQs every accelerator began with one.", "user_id":   33951220 }
+                    ]
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0460585355759, 46.232448095553 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "Building 513\n\nIn the fist floor there is a window where you can see the CERN computing center, where all the data from the experiments is preprocessed.\n\nIn the ground floor there is a museum with some interesting stuff.",
+                    "id": "10",
+                    "img": "http://i.imgur.com/32NB3So.jpg",
+                    "lat": "46.232448095553494",
+                    "lon": "6.046058535575867",
+                    "name": "CERN Computing Centre",
+                    "req": "CERN Card (To enter the campus)",
+                    "comments": [
+                      {"text": "If the cooling system in the back is turn off, the temperature in the room will increase one Celsius degree every second, until everything is on flames (or until the overheating of the servers makes them switch off)", "user_id": 0 },
+                      {"text": "the computer center is inside building 513.", "user_id":  469573409 },
+                      {"text": "Marker is on wrong position -> put to Bld 5", "user_id":  996303185 },
+                      {"text": "Yep, sorry, it was in the wrong place, corrected it :", "user_id":          0 },
+                      {"text": "\"If the cooling system in the back is turn off, the temperature in the room will increase one Celsius degree every second, until everything is on flames\" Mh... Source?", "user_id":   33901776 }
+                    ]
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0457688570023, 46.232551996511 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "The original NeXT computer that ran the first web server ever. The first web-page (that this computer served) is still available in it's original address: http://info.cern.ch/hypertext/WWW/TheProject.html",
+                    "id": "11",
+                    "img": "http://i.imgur.com/PNeBJQj.jpg",
+                    "lat": "46.232551996511454",
+                    "lon": "6.045768857002258",
+                    "name": "First Webserver",
+                    "req": "CERN Card (To enter the campus)",
+                    "comments": [
+                      {"text": "If I'm not mistaken, this is actually a replica. The original is displayed on the Globe.", "user_id":  218136381 },
+                      {"text": "Well, it does say that Tim had two NeXT computer, so maybe this is one and the other is in the globe.", "user_id":  509054753 },
+                      {"text": "I was also told Tim had two, one server and one for client (so Globe and 513), not sure which is which though. \nBut why is the tag here? Maybe should be in the 513 building. \n Also, access to building 513 with cern badge is just during working hours, need to request it for after hours.", "user_id":  666238025 },
+                      {"text": "Yep, sorry, it was in the wrong place, corrected it :", "user_id":          0 }
+                    ]
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.047523021698, 46.233000994818 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "There is a small platform between the buildings which gives you a nice overview over the PS and the Booster complex. Standing there you are right above the intersection of the two accelerators.",
+                    "id": "37",
+                    "img": "http://i.imgur.com/WABtLS0l.jpg",
+                    "lat": "46.2330009948181",
+                    "lon": "6.047523021697998",
+                    "name": "Proton Synchrotron Booster / PS Overview",
+                    "req": "Cern Card",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0555535554886, 46.234882294888 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "Mural of the ATLAS detector at CERN painted by artist Josef Kristofoletti. The mural is located at the ATLAS Experiment site, and it shows on two perpendicular walls the detector with a collision event superimposed. The event on the large wall shows a simulation of an event that would be recorded in ATLAS if a Higgs boson was produced. The cavern of the ATLAS Experiment with the detector is 100 meters directly below the mural. The height of the mural is about 12 meters (40 feet). The actual ATLAS detector is more than twice as big. ",
+                    "id": "12",
+                    "img": "http://i.imgur.com/6ZGnhcxl.jpg",
+                    "lat": "46.2348822948884",
+                    "lon": "6.055553555488586",
+                    "name": "ATLAS Mural",
+                    "req": "CERN Card",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0557091236115, 46.235431459079 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "Learn about the science of the ATLAS experiment through interactive exhibits, and observe the intense excitement of the ATLAS control room just on the other side of a glass wall. Come and hunt for your own Higgs particle, turn yourself into antimatter or try and beat the ATLAS trigger!\n\nYou can see the ATLAS Control Centre from one of the windows.",
+                    "id": "13",
+                    "img": "http://i.imgur.com/21vGze0.jpg",
+                    "lat": "46.23543145907948",
+                    "lon": "6.05570912361145",
+                    "name": "ATLAS Visitor Centre",
+                    "req": "CERN Card",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0408818721771, 46.234314572076 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "From http://www.cernlove.org/blog/2009/11/mysteries-of-the-water-tower/ :\n\nToday I would like to share a few mysteries surrounding the CERN water tower that have confounded me for years, as well as partial explanations I\u2019ve heard that sound plausible but may or may not be true. I am a seeker, always striving to know and to comprehend, so if you have heard other explanations, I invite you to share them.\n\n    Why did CERN originally build a water tower?\n    An Explanation: to cool one of the experiments (heard this from a well-known physicist).\n    What is it used for today?\n    An Explanation: drinking water\n    Why was it painted yellow?\n    An Explanation: Because a bright yellow eyesore is better than a concrete-colored eyesore.\n    Why was it only partially painted yellow?\n    An Explanation: an Italian firm was taking so long to paint it and increasing their price as they went that CERN management got fed up and called it off before it was finished (heard this from a crazy person).\n    Why does a water tower need a viewing room at the top surrounded by windows?\n    No known explanation\n",
+                    "id": "14",
+                    "img": "http://i.imgur.com/CLZy6e3.jpg",
+                    "lat": "46.23431457207582",
+                    "lon": "6.040881872177124",
+                    "name": "Water Tower",
+                    "req": "CERN Card",
+                    "comments": [ {"text": "The room at the top serves as a radio relay for either the fire brigade or the security guards or both (rack containing radio repeaters with frequent french radio chatter). There is also a rather odd, fancy elevator with leather trim that takes you to the top. It's as if they wanted there to be some nice observation room up there but left it shut.", "user_id":  326327418 } ]
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 0, 0 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "Nobody will tell you where it is, but somewhere in the underground CERN sits a temple where Summer Students have left messages to future generations of Summer Students. Only five summer students have died trying to find it.",
+                    "id": "15",
+                    "img": "http://i.imgur.com/Cy7HI3Ys.jpg",
+                    "lat": "0",
+                    "lon": "0",
+                    "name": "Summer Student Temple",
+                    "req": "???",
+                    "comments": [{"text": "Into the depths you must dive, to leave no stone unturned.", "user_id":   33951220 }]
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0458922386169, 46.232622500621 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "This is what I'm told anyways. Walk into building 513 and go through the glass doors in front of you.",
+                    "id": "16",
+                    "img": "http://openmap.bbn.com/~tomlinso/ray/x118-17-ka10.jpg",
+                    "lat": "46.2326225006209",
+                    "lon": "6.045892238616943",
+                    "name": "First computer to send an email",
+                    "req": "N/A",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0549259185791, 46.232058465209 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "Sometimes, if you are lucky, he leaves his door open for people to admire his office. Please be respectful and do not enter.\n\n(Building 4, second floor)",
+                    "id": "17",
+                    "img": "http://upload.wikimedia.org/wikipedia/commons/0/0c/John_Ellis_at_CERN.jpg",
+                    "lat": "46.23205846520927",
+                    "lon": "6.054925918579102",
+                    "name": "John Ellis' office",
+                    "req": "The stealth of a ninja",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0459136962891, 46.23396948279 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "The Antiproton Decelerator hall contains a number of different antimatter experiments that are using antiprotons. Now during LS1 you are also allowed to see the actual decelerator. To get in you need to be with an official guide or just let someone who works there show you (it's usually not a problem if it's only one or two guests)",
+                    "id": "18",
+                    "img": "http://i.imgur.com/xHFMNud.jpg",
+                    "lat": "46.233969482790386",
+                    "lon": "6.0459136962890625",
+                    "name": "AD hall",
+                    "req": "Dosimeter with special access or join a guided tour",
+                    "comments": [ {"text": "One needs to get a special safety training to access the AD, please do not enter on your own. The best is to join the special summer student tours.", "user_id":  350164553 }]
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.054190993309, 46.229705781308 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "From Wikipedia: \n\nIn 2004, a 2m statue of the dancing Shiva was unveiled at CERN, the European Center for Research in Particle Physics in Geneva. The statue, symbolizing Shiva's cosmic dance of creation and destruction, was given to CERN by the Indian government to celebrate the research center's long association with India. A special plaque next to the Shiva statue explains the significance of the metaphor of Shiva's cosmic dance with quotations from Fritjof Capra: \"\n\n    Hundreds of years ago, Indian artists created visual images of dancing Shivas in a beautiful series of bronzes. In our time, physicists have used the most advanced technology to portray the patterns of the cosmic dance. The metaphor of the cosmic dance thus unifies ancient mythology, religious art and modern physics.",
+                    "id": "29",
+                    "img": "http://i.imgur.com/nGUEnZpl.jpg",
+                    "lat": "46.22970578130794",
+                    "lon": "6.05419099330902",
+                    "name": "Dancing Shiva Statue",
+                    "req": "Campus access",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0458493232727, 46.232607657658 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "There is a balcony for visitors at 1st floor of B513 where everybody can go and watch the farms with thousands of computers down there. The underground floor has more interesting things but needs a guided visit.",
+                    "id": "20",
+                    "img": "http://malandes.web.cern.ch/malandes/images/cc.jpg",
+                    "lat": "46.232607657658",
+                    "lon": "6.045849323272705",
+                    "name": "CERN Computing Centre (CCC)",
+                    "req": "Open on working hours.",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0471743345261, 46.231320015349 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "First atoms of anti-matter were created there!\nhttp://home.web.cern.ch/about/physics/search-antimatter\nhttp://en.wikipedia.org/wiki/Low_Energy_Ion_Ring",
+                    "id": "19",
+                    "img": "http://cds.cern.ch/record/749051/files/na-2004-128_9007366.jpg",
+                    "lat": "46.2313200153488",
+                    "lon": "6.047174334526062",
+                    "name": "Low Energy Ion Ring (LEIR)",
+                    "req": "Only guided visits",
+                    "comments": [
+                      {"text": "Be advised: A dosimeter is obligatory in this premises!", "user_id":  487673934 },
+                      {"text": "Hey, a dosimeter is not obligatory there!! There is a balcony on the top floor to watch. The radiation flows horizontally so there is no risk you get radiation there. Also, there are radiation detectors (traffic lights) in green when nothing happens. In addition, whenever that is functioning, they flash lights and forbid visits (not very often)", "user_id":  120808718 }
+                    ]
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0484671592712, 46.237846974156 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "The magnet testing facility. All magnets that were brought underground have been tested here.\n\nTo enter, one needs to wear a personal dosimeter. Please respect the signs saying \"no visitors beyond this point\".\n\nIt is walkable from the Meyrin site.\n\nBuilding where the 1232 LHC dipoles were tested. You can still see RF cavities, the dipoles test benches, superconducting cables, a mockup of the LHC tunnel, and a bunch of other cool objects.\n",
+                    "id": "21",
+                    "img": "http://i.imgur.com/k0SBqmZl.jpg",
+                    "lat": "46.23784697415564",
+                    "lon": "6.04846715927124",
+                    "name": "SM18",
+                    "req": "CERN ID-card + Dosimeter",
+                    "comments": [
+                      {"text": "There is no need for a dosimeter... i've worked there and I haven't ever used one!", "user_id":  789767651 },
+                      {"text": "You really should have as it's a radiation controlled area.", "user_id":   33951220 }
+                    ]
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0448944568634, 46.235168009376 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "(Construction of) the n_TOF Second Experimental Area",
+                    "id": "24",
+                    "img": "http://home.web.cern.ch/sites/home.web.cern.ch/files/styles/medium/public/image/experiment/2012/12/nTOF.jpg?itok=DrDe_Hgy",
+                    "lat": "46.23516800937633",
+                    "lon": "6.044894456863403",
+                    "name": "n_TOF EAR2",
+                    "req": "-",
+                    "comments": [ {"text": "It requires CERN access card - of course :", "user_id":  611793426 } ]
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0583966970444, 46.260546135055 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "The Alpha Magnetic Spectrometer looks for dark matter, antimatter and missing matter from a module on the International Space Station.  The facility at Prevessin allows visitors to see the control room, a model of the detector, and has a live video link to the international space station.",
+                    "id": "22",
+                    "img": "http://farm8.staticflickr.com/7002/6703932193_e42ac5c0aa_o.jpg",
+                    "lat": "46.26054613505497",
+                    "lon": "6.058396697044373",
+                    "name": "AMS POCC",
+                    "req": "CERN shuttle to Pr\u00e9vessin",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0481882095337, 46.237743083222 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "Building where the 1232 LHC dipoles were tested. You can still see RF cavities, the dipoles test benches, superconducting cables, a mockup of the LHC tunnel, and a bunch of other cool objects.",
+                    "id": "23",
+                    "img": "http://imgur.com/RTyApWx",
+                    "lat": "46.23774308322238",
+                    "lon": "6.048188209533691",
+                    "name": "SM18",
+                    "req": "CERN card",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0545289516449, 46.231501845633 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "Take the elevator in the main building to the highest floor to get a nice view over the site and have a peek into CERN's most bad-ass conference room.\nYOU SHOULD NEVER climb the ladder outside to get to the rooftop. Be sure NOT to bring a bottle of wine and a guitar to spend a nice summer evening!\n",
+                    "id": "26",
+                    "img": "http://i.imgur.com/lmaA9RI.jpg",
+                    "lat": "46.23150184563347",
+                    "lon": "6.0545289516448975",
+                    "name": "Main Building Rooftop",
+                    "req": "-",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0457849502563, 46.236088222551 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "Where the locks were broken and the dark deed began. All that remained was a poor soul, left to the spirits.",
+                    "id": "27",
+                    "img": "http://i.imgur.com/4I2KoF9.jpg",
+                    "lat": "46.236088222551146",
+                    "lon": "6.045784950256347",
+                    "name": "Where the dead started to rise",
+                    "req": "Bravery and an adventurous spirit",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0452270507812, 46.232407277266 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "Started as an April Fools' joke by CERN Computer Security Team, now it is one of the most photographed items by tourists at CERN:\nhttp://computer-animal-shelter.web.cern.ch/computer-animal-shelter/index.shtml",
+                    "id": "28",
+                    "img": "http://i.imgur.com/P0E7LGU.jpg",
+                    "lat": "46.23240727726618",
+                    "lon": "6.04522705078125",
+                    "name": "CERN Animal Shelter for Computer Mice",
+                    "req": "Nothing, outdoors",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0546416044235, 46.229579609291 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "A real-size photo of CMS, building 40",
+                    "id": "30",
+                    "img": "http://i.imgur.com/13oGpfkl.jpg",
+                    "lat": "46.22957960929058",
+                    "lon": "6.054641604423523",
+                    "name": "CMS 1:1 scale photo",
+                    "req": "Campus Access",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0420781373978, 46.234292308316 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "OPAL detector Jet Chamber",
+                    "id": "31",
+                    "img": "http://i.imgur.com/cj6h9gSl.jpg",
+                    "lat": "46.234292308316455",
+                    "lon": "6.042078137397766",
+                    "name": "Jet chamber of OPAL detector on LEP",
+                    "req": "Campus access",
+                    "comments": [
+                      {"text": "It's the Jet chamber of OPAL detector on LEP (took me a while to google it last time), awesome piece of detector.", "user_id":  666238025 },
+                      {"text": "Thanks! I have changed the t", "user_id":          0 }
+                    ]
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0430383682251, 46.234982480657 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "CERN employs sheep to cut the grass in some of the green zones. I don't know if they are always in the same place, but I always see them here.",
+                    "id": "32",
+                    "img": "http://i.imgur.com/OthnqOWl.jpg",
+                    "lat": "46.234982480657415",
+                    "lon": "6.043038368225098",
+                    "name": "Sheep!",
+                    "req": "Campus access",
+                    "comments": [ {"text": "They move the sheep around the sites, I've seen them also in P1.", "user_id":  915611806 }]
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0470348596573, 46.231564929469 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "Bat150/bat363\n\nWhere the proton acceleration for all CERN machines start. Duoplasmatron Ion source, LEBT, RFQ and drift tube can be seen. RFQ and drift tube mock-ups are available in the free access area in front of the Linac control room.",
+                    "id": "34",
+                    "img": "http://i.imgur.com/kvDAAEdl.jpg",
+                    "lat": "46.231564929469045",
+                    "lon": "6.047034859657288",
+                    "name": "LINAC2",
+                    "req": "Dosimeter, Key/Guide",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0472333431244, 46.231683675316 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "Bat351\n\nLead ions for LEIR,\u2026 . ECR ion source, spectrometer magnet, focusing triplett, RFQ and drift tubes. Stripping to fully ionised Pb ions will happen at a later stage.",
+                    "id": "35",
+                    "img": "http://i.imgur.com/6LzWCWz.jpg",
+                    "lat": "46.231683675315736",
+                    "lon": "6.04723334312439",
+                    "name": "LINAC3",
+                    "req": "Dosimeter, Key/Guide",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0542231798172, 46.231431340084 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "Go down the stairs at the main entrance, follow some lines in the foor and go through the left door.\n\nThe tunnels are very widespread, and has exits in many buildings.\n\nThere is supposed to be a temple with old messages on the walls, and a bottle of wine that can be drunk if it is replaced for the next finders.",
+                    "id": "36",
+                    "img": "http://t.co/ACMZAjrbeg",
+                    "lat": "46.231431340084406",
+                    "lon": "6.0542231798172",
+                    "name": "Cern Tunnel Entrance",
+                    "req": "Preferably rough clothes and shoes",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0486549139023, 46.230833894691 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "Cannot see much but sometimes between tests it's open, better to ask somebody working there to take you in. \nShould use the door from ground floor of building 6, not through 150.",
+                    "id": "38",
+                    "img": "http://i.imgur.com/S7DCqhJl.jpg",
+                    "lat": "46.23083389469093",
+                    "lon": "6.048654913902283",
+                    "name": "Linac4 teststand",
+                    "req": "Official guide (with dosimeter)",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0500282049179, 46.23078194261 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "Two slices of TileCal, some posters, scintillators and hadron calo modules from UA1 (UA2?). \nThe door from north-west is usually open, just smile at people working there, they are not used to many visitors but never kicked me out. ",
+                    "id": "39",
+                    "img": "http://i.imgur.com/40hnsGZl.jpg",
+                    "lat": "46.230781942610264",
+                    "lon": "6.050028204917908",
+                    "name": "ATLAS TileCal slice (building 175)",
+                    "req": "CERN card",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0506129264832, 46.231887769139 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "The left most entrance on the north side of bat. 157 is sometimes open, you can see the CLOUD experiment (big silver barrel), walk to the north-east corner and upstairs to see some beam-lines. \nCan also take the staircase on the south (from bat. 263) and go to the top and inside. Don't go to the beam-lines alone, it's a supervised area (eg. still with a piece of target for Dirac experiment)",
+                    "id": "40",
+                    "img": "http://i.imgur.com/LQM2maEl.jpg",
+                    "lat": "46.2318877691395",
+                    "lon": "6.050612926483154",
+                    "name": "PS east area + CLOUD experiment",
+                    "req": "dosimeter/somebody who works there",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0491913557053, 46.230778231745 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "80 ton rotor, it's off since a while. It's usually accessible from service tunnels.",
+                    "id": "41",
+                    "img": "http://i.imgur.com/jvfXxBml.jpg",
+                    "lat": "46.23077823174547",
+                    "lon": "6.049191355705261",
+                    "name": "Old SIEMENS power supply for PS",
+                    "req": "map of tunnels",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0527586936951, 46.232960176942 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "CERN's first accelerator, soon to be open for visits (around Sept 2013)",
+                    "id": "42",
+                    "img": "http://i.imgur.com/ignYmj2l.jpg",
+                    "lat": "46.232960176941994",
+                    "lon": "6.052758693695068",
+                    "name": "Synchro-cyclotron (SC)",
+                    "req": "guide",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0553121566772, 46.235424037978 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "From wikipedia: ATLAS (A Toroidal LHC Apparatus) is one of the seven particle detector experiments constructed at the LHC. The experiment is designed to take advantage of the unprecedented energy available at the LHC and observe phenomena that involve highly massive particles which were not observable using earlier lower-energy accelerators. It might shed light on new theories of particle physics beyond the Standard Model.",
+                    "id": "43",
+                    "img": "http://i.imgur.com/cBH8yovl.jpg",
+                    "lat": "46.23542403797839",
+                    "lon": "6.055312156677246",
+                    "name": "ATLAS",
+                    "req": "Guided visit (Request in office 40/4-D01)",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0762548446655, 46.309977662263 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "From Wikipedia: The Compact Muon Solenoid (CMS) experiment is one of two large general-purpose particle physics detectors built on the LHC. The goal of CMS experiment is to investigate a wide range of physics, including the search for the Higgs boson, extra dimensions, and particles that could make up dark matter.\n\nCMS is 25 metres long, 15 metres in diameter, and weighs about 12,500 tons. Approximately 3,600 people, representing 183 scientific institutes and 38 countries, form the CMS collaboration who built and now operate the detector. It is located in an underground cavern at Cessy in France, just across the border from Geneva. In July 2012, along with ATLAS, CMS discovered a boson, which is very similar to the Standard Model Higgs Particle. Future research is required to decide if this boson is Higgs Particle or not.",
+                    "id": "44",
+                    "img": "http://i.imgur.com/fNHExszl.jpg",
+                    "lat": "46.30997766226334",
+                    "lon": "6.076254844665527",
+                    "name": "CMS",
+                    "req": "Guided tour (request office 42/3-021)",
+                    "comments": []
+                },
+                "type": "Feature"
+            },
+            {
+                "geometry": { "coordinates": [ 6.0208189487457, 46.251495789881 ], "type": "Point" },
+                "properties": {
+                    "active": "1",
+                    "description": "From Wikipedia: A Large Ion Collider Experiment (ALICE) is one of seven detector experiments at the LHC. ALICE is optimized to study heavy ion collisions. Pb-Pb nuclei collisions will be studied at a centre of mass energy of 2.76 TeV per nucleus. The resulting temperature and energy density are expected to be large enough to generate a quark-gluon plasma, a state of matter wherein quarks and gluons are deconfined.",
+                    "id": "45",
+                    "img": "http://i.imgur.com/4pEaRlYl.jpg",
+                    "lat": "46.25149578988096",
+                    "lon": "6.0208189487457275",
+                    "name": "Alice",
+                    "req": "Guide",
+                    "comments": []
+                },
+                "type": "Feature"
+            }
+        ],
+        "type": "FeatureCollection"
+    },
+    "status": "success"
+}
